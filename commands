@@ -1,0 +1,31 @@
+commands
+test 1: javac AES.java Alice.java Bob.java
+		java Alice autobiographically
+		java Bob
+
+test 2: javac RSA.java Alice.java Bob.java
+		java Alice autobiographically
+		java Bob
+
+test 3: javac AES.java Alice.java Bob.java
+		java Alice testing
+		java Bob
+
+		javac RSA.java Alice.java Bob.java
+		java Alice testing
+		java Bob
+
+test 4: javac HMAC.java Alice.java Bob.java
+		java Alice autobiographically
+		java Bob
+
+test 5: javac RSA.java Alice.java Bob.java
+		java Alice autobiographically
+		java Bob	
+
+test 6: javac HMAC.java Alice.java 
+		java Alice testing
+
+		javac RSA.java Alice.java Bob.java
+		java Alice testing
+		java Bob	
